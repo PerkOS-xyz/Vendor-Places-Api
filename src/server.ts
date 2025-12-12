@@ -28,6 +28,7 @@ app.set('trust proxy', true);
  */
 
 // Security middleware
+// @ts-ignore - helmet ESM/CJS interop issue
 app.use(helmet({
   contentSecurityPolicy: false,
   crossOriginEmbedderPolicy: false
