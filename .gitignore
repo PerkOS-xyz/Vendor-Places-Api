@@ -54,6 +54,7 @@ test-results/
 # Temporary folders
 tmp/
 temp/
+_temp_backup/
 
 # Runtime data
 pids
@@ -78,6 +79,7 @@ pids
 
 # dotenv environment variable files
 .env*
+!.env.example
 
 # Next.js build output
 .next
