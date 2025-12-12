@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api"
+    }
+  ],
+  "env": {
+    "FACILITATOR_URL": "https://x402.org/facilitator",
+    "NETWORK": "base",
+    "PAYMENT_PRICE_USD": "0.01",
+    "PORT": "3001"
+  }
+}
